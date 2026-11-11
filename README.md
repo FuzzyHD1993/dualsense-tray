@@ -9,9 +9,11 @@ One click switches between *our* trigger profiles and the game's own effects.
 └─────────────────────────────┘
 ```
 
-- icon reflects the state: gamepad (our profiles on) / crossed-out (off)
-- click / secondary click toggles `dualsense-toggle`
-- state is read from `~/.config/dualsense/disabled`
+- left click toggles between our profiles and the game's own effects
+- the menu (DBusMenu) lets you pick a profile: **Auto (by game)**, Off,
+  or a specific game (AW2, RDR2, PoE2, Crimson Desert, ETS2, Cyberpunk)
+- the icon and tooltip show the current mode
+- state is read from `~/.config/dualsense/{override,disabled}`
 - automatically re-registers if the status area restarts
 
 ## Requirements
